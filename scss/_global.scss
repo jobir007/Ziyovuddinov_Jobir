@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --yellow: #FcB72B;
+    --dark-navy: #495567;
+    --dim-grey:   #939CAA;
+    --light-grey: #e5ecf4;
+    --light-yellow: #fff4df;
+    --border-btn: 3px solid;
+}
+
+body{
+    font-family: 'Space  Mono', normal;
+}
+
+ul{
+    list-style:none;
+}
+
+p{
+    font-family: 'Lexend Deca', normal;
+}

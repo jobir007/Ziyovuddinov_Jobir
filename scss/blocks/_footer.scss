@@ -1,0 +1,89 @@
+.footer{
+    background-image: url(/imgs/Group\ 22.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    padding: 100px 165px;
+    background-color: #495567;
+    
+    
+&__box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+&__title{
+    width: 415px;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    color: #ffffff;
+}
+&__right{
+    display:flex;
+    gap:18px;
+}
+&__link:hover{
+    box-shadow: 1px 1px 10px var(--light-grey);
+    border-radius: 4px;
+}
+&__link:active{
+    box-shadow: 1px 1px 10px var(--dim-grey);
+}
+}
+
+
+.footer-2{
+    background: #333A44;
+    
+    
+
+
+&__box2{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px 0 35px;
+}
+&__logo{
+    display: flex;
+}
+&__list2{
+    display:flex;
+    margin-left: 120px;
+}
+&__item2 + &__item2{
+    margin-left: 32px;;
+}
+&__link2{
+    font-weight: 700;
+    font-size:15px;
+    line-height: 25px;
+    color: var(--dim-grey);
+    text-decoration: none;
+}
+&__link2:hover{
+    color: var(--dark-navy);
+}
+&__link2:active{
+    color: var(--light-grey);
+    
+}
+&__icons a{
+    font-size: 30px;
+    text-decoration: none;
+    color: var(--yellow);
+
+}
+&__icons a + a{
+    margin-left: 18px;
+}
+&__icons a:hover{
+    color: var(--light-grey);
+}
+&__icons a:active{
+    color: var(--dark-navy);
+}
+}
